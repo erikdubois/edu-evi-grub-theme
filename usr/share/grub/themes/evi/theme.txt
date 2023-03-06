@@ -28,12 +28,20 @@ terminal-border: "0"
   selected_item_pixmap_style = "select_*.png"
 }
 
++ image {
+  top = 100%-50
+  left = 50%-240
+  width = 480
+  height = 42
+  file = "info.png"
+}
 
 # Countdown label
 # You can change the name of default starting OS here
 + label {
   left = 15%
   top = 31%
+  width = 36%
   align = "center"
   id = "__timeout__"
   text = "Selected OS will start in %d seconds"
