@@ -12,8 +12,8 @@ terminal-border: "0"
 
 # Boot menu
 + boot_menu {
-  left = 15%
-  top = 40%
+  left = 33%
+  top = 33%
   width = 55%
   height = 65%
   item_font = "Ubuntu Regular 20"
@@ -26,14 +26,6 @@ terminal-border: "0"
   item_padding = 2
   item_spacing = 10
   selected_item_pixmap_style = "select_*.png"
-}
-
-+ image {
-  top = 100%-50
-  left = 50%-240
-  width = 480
-  height = 42
-  file = "info.png"
 }
 
 # Countdown label
